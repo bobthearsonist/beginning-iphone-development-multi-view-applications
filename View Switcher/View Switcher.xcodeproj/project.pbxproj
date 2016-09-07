@@ -15,6 +15,8 @@
 		84846EA31D7E545700160710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84846EA11D7E545700160710 /* LaunchScreen.storyboard */; };
 		84846EAE1D7E545700160710 /* View_SwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84846EAD1D7E545700160710 /* View_SwitcherTests.m */; };
 		84846EB91D7E545700160710 /* View_SwitcherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84846EB81D7E545700160710 /* View_SwitcherUITests.m */; };
+		84846EC81D80C7B000160710 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84846EC71D80C7B000160710 /* BlueViewController.m */; };
+		84846ECD1D80C81800160710 /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84846ECC1D80C81800160710 /* YellowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		84846EB41D7E545700160710 /* View SwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View SwitcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84846EB81D7E545700160710 /* View_SwitcherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_SwitcherUITests.m; sourceTree = "<group>"; };
 		84846EBA1D7E545700160710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84846EC61D80C7B000160710 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		84846EC71D80C7B000160710 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		84846ECB1D80C81800160710 /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
+		84846ECC1D80C81800160710 /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				84846EA11D7E545700160710 /* LaunchScreen.storyboard */,
 				84846EA41D7E545700160710 /* Info.plist */,
 				84846E931D7E545700160710 /* Supporting Files */,
+				84846EC61D80C7B000160710 /* BlueViewController.h */,
+				84846EC71D80C7B000160710 /* BlueViewController.m */,
+				84846ECB1D80C81800160710 /* YellowViewController.h */,
+				84846ECC1D80C81800160710 /* YellowViewController.m */,
 			);
 			path = "View Switcher";
 			sourceTree = "<group>";
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84846E9B1D7E545700160710 /* SwitchingViewController.m in Sources */,
+				84846ECD1D80C81800160710 /* YellowViewController.m in Sources */,
 				84846E981D7E545700160710 /* AppDelegate.m in Sources */,
+				84846EC81D80C7B000160710 /* BlueViewController.m in Sources */,
 				84846E951D7E545700160710 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
