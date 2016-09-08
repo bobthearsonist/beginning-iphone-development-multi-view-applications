@@ -54,7 +54,7 @@
     {
         if (!self.blueViewController)
         {
-            self.blueViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Blue"]
+            self.blueViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Blue"];
         }
     }
     
@@ -71,7 +71,7 @@
     }
 }
 
--(void) switchViewFromController:(UIViewController*)fromVC toViewController:(UIViewController*)toVC
+-(void) switchViewFromViewController:(UIViewController*)fromVC toViewController:(UIViewController*)toVC
 {
     if(fromVC != nil)
     {
