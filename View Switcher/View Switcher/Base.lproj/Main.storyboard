@@ -43,7 +43,7 @@
         <!--Blue View Controller-->
         <scene sceneID="0Lt-H8-yHP">
             <objects>
-                <viewController storyboardIdentifier="Blue" id="nKY-eg-xOj" customClass="BlueViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Blue" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nKY-eg-xOj" customClass="BlueViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uBr-08-iFd"/>
                         <viewControllerLayoutGuide type="bottom" id="mui-nM-wY8"/>
@@ -56,7 +56,7 @@
                                 <rect key="frame" x="268" y="285" width="64" height="30"/>
                                 <state key="normal" title="Press Me"/>
                                 <connections>
-                                    <action selector="blueButtonPressed" destination="nKY-eg-xOj" eventType="touchUpInside" id="EeG-hH-RAG"/>
+                                    <action selector="ButtonPressed" destination="nKY-eg-xOj" eventType="touchUpInside" id="jyJ-4n-oZ9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -74,7 +74,7 @@
         <!--Yellow View Controller-->
         <scene sceneID="5Wh-bu-qOl">
             <objects>
-                <viewController storyboardIdentifier="Yellow" id="Oah-DK-tMq" customClass="YellowViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Yellow" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Oah-DK-tMq" customClass="YellowViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Smh-Dg-tSP"/>
                         <viewControllerLayoutGuide type="bottom" id="avz-3a-Uk5"/>
@@ -87,7 +87,7 @@
                                 <rect key="frame" x="268" y="285" width="64" height="30"/>
                                 <state key="normal" title="Press Me"/>
                                 <connections>
-                                    <action selector="yellowButtonPressed" destination="Oah-DK-tMq" eventType="touchUpInside" id="RkS-U0-Epd"/>
+                                    <action selector="ButtonPressed" destination="Oah-DK-tMq" eventType="touchUpInside" id="MpF-gO-FzX"/>
                                 </connections>
                             </button>
                         </subviews>

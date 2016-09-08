@@ -7,9 +7,10 @@
 //
 
 #import "BlueViewController.h"
+#import "ButtonAlert.h"
 
-@interface BlueViewController ()
-
+@interface BlueViewController (ButtonAlert)
+-(IBAction)ButtonPressed;
 @end
 
 @implementation BlueViewController
@@ -22,18 +23,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
--(IBAction)blueButtonPressed
-{
-    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Blue View Button Pressed"
-                                                                   message:@"You pressed the button on the blue view"
-                                                            preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction* action = [UIAlertAction actionWithTitle:@"Yes I did"
-                                                     style:UIAlertActionStyleDefault
-                                                   handler:nil];
-    [alert addAction:action];
-    [self presentViewController:alert animated:YES completion:nil];
 }
 
 /*
