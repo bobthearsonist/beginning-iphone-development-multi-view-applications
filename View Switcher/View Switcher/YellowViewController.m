@@ -24,6 +24,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)yellowButtonPressed
+{
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Yellow View Button Pressed"
+                                                                   message:@"You pressed the button on the yellow view"
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction* action = [UIAlertAction actionWithTitle:@"Yes I did"
+                                                     style:UIAlertActionStyleDefault
+                                                   handler:nil];
+    [alert addAction:action];
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
 /*
 #pragma mark - Navigation
 
